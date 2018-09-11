@@ -1,17 +1,16 @@
 #-*- coding: utf-8 -*-
-from konlpy.tag import Okt
 import tensorflow as tf
 import numpy as np
 import re, codecs, config
 
-twitter = Okt()
+# from konlpy.tag import Okt
+# twitter = Okt()
 
 
 class Conversation():
 
     voc_list, voc_dict, voc_size, conversation = [], [], [], []
     index_in_epoch = 0
-
 
     def Tokens_to_index(self, token):
         index = []

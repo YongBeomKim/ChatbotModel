@@ -8,8 +8,8 @@ from Conversation import Conversation
 
 import tensorflow as tf
 import numpy as np
-from konlpy.tag import Okt
-twitter = Okt()
+# from konlpy.tag import Okt
+# twitter = Okt()
 
 
 class Chat:
