@@ -1,6 +1,0 @@
-model_checkpoint_path: "conversation.ckpt-90"
-all_model_checkpoint_paths: "conversation.ckpt-70"
-all_model_checkpoint_paths: "conversation.ckpt-75"
-all_model_checkpoint_paths: "conversation.ckpt-80"
-all_model_checkpoint_paths: "conversation.ckpt-85"
-all_model_checkpoint_paths: "conversation.ckpt-90"
